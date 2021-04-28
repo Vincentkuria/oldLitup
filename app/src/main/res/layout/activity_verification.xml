@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".VerificationActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_margin="40dp"
+        android:padding="10dp"
+        android:id="@+id/textnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_enter_code_if_not_automatically_verified"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_below="@+id/textnote"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="@string/enter_verification_code"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/verifybtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_backview"
+        android:text="@string/verify"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:elevation="5dp"/>
+
+    <ProgressBar
+        android:layout_below="@+id/verifybtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#050505" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226097419350",
+    "firebase_url": "https://litup-49efa.firebaseio.com",
+    "project_id": "litup-49efa",
+    "storage_bucket": "litup-49efa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226097419350:android:bd1e7ce4f037834961d7f7",
+        "android_client_info": {
+          "package_name": "com.vinLitup.Litup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226097419350-822jmh426gjflhi399o5t95d7copj965.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinLitup.Litup",
+            "certificate_hash": "37ea37bf15fb9969e1a9ec8436b32d99b823beff"
+          }
+        },
+        {
+          "client_id": "226097419350-6ssvnusmad7b7hf47iu90v4eqb99frji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB60KcMFI9vVGvtkbiUUfRmy-WMjro9iVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226097419350-6ssvnusmad7b7hf47iu90v4eqb99frji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

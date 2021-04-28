@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/phonNolayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/login_btn"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/CPP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_defaultPhoneCode="254" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/enter_phone_number"
+            android:importantForAutofill="no"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@id/phonNolayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_backview"
+        android:shadowColor="@color/receive"
+        android:text="@string/login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:elevation="5dp"/>
+</RelativeLayout>

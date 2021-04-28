@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Litup</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="please_enter_code_if_not_automatically_verified">PLEASE ENTER VERIFICATION CODE SENT TO YOU IF NOT AUTOMATICALLY VERIFIED</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="verify">VERIFY</string>
+    <string name="user_name">User Name</string>
+    <string name="bio">Bio</string>
+    <string name="enter_about_you">enter about you</string>
+    <string name="enter_user_name">enter user name</string>
+    <string name="finish_setup">finish setup</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="enter_username">Please Enter Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
